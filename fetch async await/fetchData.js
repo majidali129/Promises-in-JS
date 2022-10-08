@@ -117,3 +117,88 @@
 
 
 
+// const countriesAPI = 'https://restcountries.com/v2/all'
+// const catsAPI = 'https://api.thecatapi.com/v1/breeds'
+
+// let catsData = fetch(catsAPI);
+// catsData.then(response=>{
+//     let jsonData = response.json();
+//     return jsonData;
+// }).then(actualResponse=>{
+//     // console.log(actualResponse);
+//     let data = actualResponse;
+//     for(let i=0; i<data.length; i++){
+//         // console.log(data[i]['weight'].metric[i] + data[i]['weight'].metric[i+1])
+//         if(i==50){
+//             console.log(data[i].weight['metric'])
+//         }
+//     }
+// })
+
+// async function findCountry(){
+    // const countriesAPI = 'https://restcountries.com/v2/all'
+//     let countryData = await fetch(countriesAPI);
+//     let response = await countryData.json();
+//     return response;
+// }
+
+// findCountry().then(response=>{
+//     let countries = response;
+//     let listOfAreas = [];
+//     let biggest_country = [];
+//     for(let i=0; i<countries.length; i++){
+//         if(countries[i].population != undefined){
+//             listOfAreas.push(countries[i].population);
+//         }
+//     }
+//     console.log(countries)
+//     console.log(listOfAreas)
+//     listOfAreas.filter(Area=>{
+//         if(listOfAreas[Area] > listOfAreas[Area + 1] ){
+//             biggest_country.push(listOfAreas[Area])
+//         };
+//     })
+//     console.log(biggest_country)
+// })
+// languages in the world used as officials.
+
+
+// const countriesAPI = 'https://restcountries.com/v2/all'
+
+// let countLanguages = fetch(countriesAPI);
+// countLanguages.then(response=>{
+//     let countriesData = response.json();
+//     return countriesData;
+// }).then(actualData =>{
+//     let data = actualData;
+//     let allLanguages = [];
+//     let language_collection = [];
+//     // console.log(data.languages)
+//     for(let i=0; i<data.length; i++){
+//        allLanguages.push(data[i].languages)
+//     }
+//     allLanguages.filter(language=>{
+//         let languageData = language;
+//         // console.log(languageData)
+
+
+//         for(let i=0; i<languageData.length; i++){
+//                 // console.log(languageData[i].name)
+//                 language_collection.push(languageData[i].name);
+//         }
+//     })
+//     let unique_languages = new Set(language_collection);
+//     console.log(data)
+//     console.log(language_collection)
+//     console.log(unique_languages)
+//     console.log(`Data : ${data.length}`)
+//     console.log(`Language_collection : ${language_collection.length}`)
+//     console.log(`Unique_languages : ${unique_languages.size}`)
+
+// })
+
+
+
+
+
+
